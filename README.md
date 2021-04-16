@@ -4,7 +4,7 @@ Using http module to fetch api and writing the api data into a file with the fs 
 
 ## Process:
 	- Importing http & fs modules through require method.
-	- Calling get method on http & passing api url into it, then getting the response as arg to callback function.
+	- Calling get method on http & passing api url into it, getting response as arg to callback function.
 	- Creating variable to hold incoming data.
 	- Receive incoming data in chunks and then storing chunks in the variable created.
 	- On completion of storing chunks write contents of the variable to a file using fs module.
